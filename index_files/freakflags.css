@@ -1,0 +1,268 @@
+/*!*****************************************************
+
+Freak Flags, Copyright ©2024 Michael P. Cohen. Freak flags is licenced under the MIT licence.  
+
+For complete information visit: www.freakflagsprite.com 
+
+******************************************************/
+
+.fflag {
+    background-image:url(/assets/images/flagSprite42.png);
+    background-repeat:no-repeat;
+    background-size: 100% 49494%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: content-box;
+    display: none;
+}
+.fflag-CH,
+.fflag-NP {box-shadow: none!important;
+    display: inline-block;
+}
+.fflag-DZ {background-position:center 0.2287%; display: inline-block;}
+.fflag-AO {background-position:center 0.4524%; display: inline-block;}
+.fflag-BJ {background-position:center 0.6721%; display: inline-block;}
+.fflag-BW {background-position:center 0.8958%; display: inline-block;}
+.fflag-BF {background-position:center 1.1162%; display: inline-block;}
+.fflag-BI {background-position:center 1.3379%; display: inline-block;}
+.fflag-CM {background-position:center 1.5589%; display: inline-block;}
+.fflag-CV {background-position:center 1.7805%; display: inline-block;}
+.fflag-CF {background-position:center 2.0047%; display: inline-block;}
+.fflag-TD {background-position:center 2.2247%; display: inline-block;}
+.fflag-CD {background-position:left 2.4467%; display: inline-block;}
+.fflag-DJ {background-position:left 2.6674%; display: inline-block;}
+.fflag-EG {background-position:center 2.8931%; display: inline-block;}
+.fflag-GQ {background-position:center 3.1125%; display: inline-block;}
+.fflag-ER {background-position:left 3.3325%; display: inline-block;}
+.fflag-ET {background-position:center 3.5542%; display: inline-block;}
+.fflag-GA {background-position:center 3.7759%; display: inline-block;}
+.fflag-GM {background-position:center 4.0015%; display: inline-block;}
+.fflag-GH {background-position:center 4.2229%; display: inline-block;}
+.fflag-GN {background-position:center 4.441%; display: inline-block;}
+.fflag-GW {background-position:left 4.66663%; display: inline-block;}
+.fflag-CI {background-position:center 4.8844%; display: inline-block;}
+.fflag-KE {background-position:center 5.1061%; display: inline-block;}
+.fflag-LS {background-position:center 5.3298%; display: inline-block;}
+.fflag-LR {background-position:left 5.5495%; display: inline-block;}
+.fflag-LY {background-position:center 5.7712%; display: inline-block;}
+.fflag-MG {background-position:center 5.994%; display: inline-block;}
+.fflag-MW {background-position:center 6.2156%; display: inline-block;}
+.fflag-ML {background-position:center 6.4363%; display: inline-block;}
+.fflag-MR {background-position:center 6.658%; display: inline-block;}
+.fflag-MU {background-position:center 6.8805%; display: inline-block;}
+.fflag-YT {background-position:center 7.1038%; display: inline-block;}
+.fflag-MA {background-position:center 7.3231%; display: inline-block;}
+.fflag-MZ {background-position:left 7.5448%; display: inline-block;}
+.fflag-NA {background-position:left 7.7661%; display: inline-block;}
+.fflag-NE {background-position:center 7.98937%; display: inline-block;}
+.fflag-NG {background-position:center 8.2099%; display: inline-block;}
+.fflag-CG {background-position:center 8.4316%; display: inline-block;}
+.fflag-RE {background-position:center 8.6533%; display: inline-block;}
+.fflag-RW {background-position:right 8.875%; display: inline-block;}
+.fflag-SH {background-position:center 9.0967%; display: inline-block;}
+.fflag-ST {background-position:center 9.32237%; display: inline-block;}
+.fflag-SN {background-position:center 9.5426%; display: inline-block;}
+.fflag-SC {background-position:left 9.7628%; display: inline-block;}
+.fflag-SL {background-position:center 9.9845%; display: inline-block;}
+.fflag-SO {background-position:center 10.2052%; display: inline-block;}
+.fflag-ZA {background-position:left 10.4269%; display: inline-block;}
+.fflag-SS {background-position:left 10.6486%; display: inline-block;}
+.fflag-SD {background-position:center 10.8703%; display: inline-block;}
+.fflag-SR {background-position:center 11.0945%; display: inline-block;}
+.fflag-SZ {background-position:center 11.3135%; display: inline-block;}
+.fflag-TG {background-position:left 11.5354%; display: inline-block;}
+.fflag-TN {background-position:center 11.7593%; display: inline-block;}
+.fflag-UG {background-position:center 11.9799%; display: inline-block;}
+.fflag-TZ {background-position:center 12.2005%; display: inline-block;}
+.fflag-EH {background-position:center 12.4222%; display: inline-block;}
+.fflag-YE {background-position:center 12.644%; display: inline-block;}
+.fflag-ZM {background-position:center 12.8664%; display: inline-block;}
+.fflag-ZW {background-position:left 13.0873%; display: inline-block;}
+.fflag-AI {background-position:center 13.309%; display: inline-block;}
+.fflag-AG {background-position:center 13.5307%; display: inline-block;}
+.fflag-AR {background-position:center 13.7524%; display: inline-block;}
+.fflag-AW {background-position:left 13.9741%; display: inline-block;}
+.fflag-BS {background-position:left 14.1958%; display: inline-block;}
+.fflag-BB {background-position:center 14.4175%; display: inline-block;}
+.fflag-BQ {background-position:center 14.6415%; display: inline-block;}
+.fflag-BZ {background-position:center 14.8609%; display: inline-block;}
+.fflag-BM {background-position:center 15.0826%; display: inline-block;}
+.fflag-BO {background-position:center 15.306%; display: inline-block;}
+.fflag-VG {background-position:center 15.528%; display: inline-block;}
+.fflag-BR {background-position:center 15.7496%; display: inline-block;}
+.fflag-CA {background-position:center 15.9694%; display: inline-block;}
+.fflag-KY {background-position:center 16.1911%; display: inline-block;}
+.fflag-CL {background-position:left 16.4128%; display: inline-block;}
+.fflag-CO {background-position:left 16.6345%; display: inline-block;}
+.fflag-KM {background-position:center 16.8562%; display: inline-block;}
+.fflag-CR {background-position:center 17.0779%; display: inline-block;}
+.fflag-CU {background-position:left 17.2996%; display: inline-block;}
+.fflag-CW {background-position:center 17.5213%; display: inline-block;}
+.fflag-DM {background-position:center 17.743%; display: inline-block;}
+.fflag-DO {background-position:center 17.968%; display: inline-block;}
+.fflag-EC {background-position:center 18.1864%; display: inline-block;}
+.fflag-SV {background-position:center 18.4081%; display: inline-block;}
+.fflag-FK {background-position:center 18.6298%; display: inline-block;}
+.fflag-GF {background-position:center 18.8515%; display: inline-block;}
+.fflag-GL {background-position:left 19.0732%; display: inline-block;}
+.fflag-GD {background-position:center 19.2987%; display: inline-block;}
+.fflag-GP {background-position:center 19.518%; display: inline-block;}
+.fflag-GT {background-position:center 19.7383%; display: inline-block;}
+.fflag-GY {background-position:center 19.96%; display: inline-block;}
+.fflag-HT {background-position:center 20.1817%; display: inline-block;}
+.fflag-HN {background-position:center 20.4034%; display: inline-block;}
+.fflag-JM {background-position:center 20.6241%; display: inline-block;}
+.fflag-MQ {background-position:center 20.8468%; display: inline-block;}
+.fflag-MX {background-position:center 21.0685%; display: inline-block;}
+.fflag-MS {background-position:center 21.2902%; display: inline-block;}
+.fflag-NI {background-position:center 21.5119%; display: inline-block;}
+.fflag-PA {background-position:center 21.7336%; display: inline-block;}
+.fflag-PY {background-position:center 21.9553%; display: inline-block;}
+.fflag-PE {background-position:center 22.177%; display: inline-block;}
+.fflag-PR {background-position:left 22.4002%; display: inline-block;}
+.fflag-BL {background-position:center 22.6204%; display: inline-block;}
+.fflag-KN {background-position:center 22.8421%; display: inline-block;}
+.fflag-LC {background-position:center 23.0638%; display: inline-block;}
+.fflag-PM {background-position:center 23.2855%; display: inline-block;}
+.fflag-VC {background-position:center 23.5072%; display: inline-block;}
+.fflag-SX {background-position:left 23.732%; display: inline-block;}
+.fflag-TT {background-position:center 23.9506%; display: inline-block;}
+.fflag-TC {background-position:center 24.1723%; display: inline-block;}
+.fflag-US {background-position:center 24.392%; display: inline-block;}
+.fflag-VI {background-position:center 24.6157%; display: inline-block;}
+.fflag-UY {background-position:left 24.8374%; display: inline-block;}
+.fflag-VE {background-position:center 25.0591%; display: inline-block;}
+.fflag-AB {background-position:center 25.279%; display: inline-block;}
+.fflag-AF {background-position:center 25.5025%; display: inline-block;}
+.fflag-AZ {background-position:center 25.7242%; display: inline-block;}
+.fflag-BD {background-position:center 25.9459%; display: inline-block;}
+.fflag-BT {background-position:center 26.1676%; display: inline-block;}
+.fflag-BN {background-position:center 26.3885%; display: inline-block;}
+.fflag-KH {background-position:center 26.611%; display: inline-block;}
+.fflag-CN {background-position:left 26.8327%; display: inline-block;}
+.fflag-GE {background-position:center 27.0544%; display: inline-block;}
+.fflag-HK {background-position:center 27.2761%; display: inline-block;}
+.fflag-IN {background-position:center 27.4978%; display: inline-block;}
+.fflag-ID {background-position:center 27.7195%; display: inline-block;}
+.fflag-JP {background-position:center 27.9412%; display: inline-block;}
+.fflag-KZ {background-position:center 28.1615%; display: inline-block;}
+.fflag-LA {background-position:center 28.3846%; display: inline-block;}
+.fflag-MO {background-position:center 28.6063%; display: inline-block;}
+.fflag-MY {background-position:center 28.829%; display: inline-block;}
+.fflag-MV {background-position:center 29.0497%; display: inline-block;}
+.fflag-MN {background-position:left 29.2714%; display: inline-block;}
+.fflag-MM {background-position:center 29.4931%; display: inline-block;}
+.fflag-NP {background-position:left 29.7148%; display: inline-block;}
+.fflag-KP {background-position:left 29.9365%; display: inline-block;}
+.fflag-MP {background-position:center 30.1582%; display: inline-block;}
+.fflag-PW {background-position:center 30.3799%; display: inline-block;}
+.fflag-PG {background-position:center 30.6016%; display: inline-block;}
+.fflag-PH {background-position:left 30.8233%; display: inline-block;}
+.fflag-SG {background-position:left 31.045%; display: inline-block;}
+.fflag-KR {background-position:center 31.2667%; display: inline-block;}
+.fflag-LK {background-position:right 31.4884%; display: inline-block;}
+.fflag-TW {background-position:left 31.7101%; display: inline-block;}
+.fflag-TJ {background-position:center 31.9318%; display: inline-block;}
+.fflag-TH {background-position:center 32.1535%; display: inline-block;}
+.fflag-TL {background-position:left 32.3752%; display: inline-block;}
+.fflag-TM {background-position:center 32.5969%; display: inline-block;}
+.fflag-VN {background-position:center 32.8186%; display: inline-block;}
+.fflag-AX {background-position:center 33.0403%; display: inline-block;}
+.fflag-AL {background-position:center 33.25975%; display: inline-block;}
+.fflag-AD {background-position:center 33.4837%; display: inline-block;}
+.fflag-AM {background-position:center 33.7054%; display: inline-block;}
+.fflag-AT {background-position:center 33.9271%; display: inline-block;}
+.fflag-BY {background-position:left 34.1488%; display: inline-block;}
+.fflag-BE {background-position:center 34.3705%; display: inline-block;}
+.fflag-BA {background-position:center 34.5922%; display: inline-block;}
+.fflag-BG {background-position:center 34.8139%; display: inline-block;}
+.fflag-HR {background-position:center 35.0356%; display: inline-block;}
+.fflag-CY {background-position:center 35.2555%; display: inline-block;}
+.fflag-CZ {background-position:left 35.479%; display: inline-block;}
+.fflag-DK {background-position:center 35.7007%; display: inline-block;}
+.fflag-EE {background-position:center 35.9224%; display: inline-block;}
+.fflag-FO {background-position:center 36.1441%; display: inline-block;}
+.fflag-FI {background-position:center 36.3658%; display: inline-block;}
+.fflag-FR {background-position:center 36.5875%; display: inline-block;}
+.fflag-DE {background-position:center 36.8092%; display: inline-block;}
+.fflag-GI {background-position:center 37.0309%; display: inline-block;}
+.fflag-GR {background-position:left 37.2526%; display: inline-block;}
+.fflag-GG {background-position:center 37.4743%; display: inline-block;}
+.fflag-HU {background-position:center 37.696%; display: inline-block;}
+.fflag-IS {background-position:center 37.9177%; display: inline-block;}
+.fflag-IE {background-position:center 38.1394%; display: inline-block;}
+.fflag-IM {background-position:center 38.3611%; display: inline-block;}
+.fflag-IT {background-position:center 38.5828%; display: inline-block;}
+.fflag-JE {background-position:center 38.8045%; display: inline-block;}
+.fflag-XK {background-position:center 39.0262%; display: inline-block;}
+.fflag-LV {background-position:center 39.2479%; display: inline-block;}
+.fflag-LI {background-position:left 39.4696%; display: inline-block;}
+.fflag-LT {background-position:center 39.6913%; display: inline-block;}
+.fflag-LU {background-position:center 39.913%; display: inline-block;}
+.fflag-MT {background-position:left 40.1347%; display: inline-block;}
+.fflag-MD {background-position:center 40.3564%; display: inline-block;}
+.fflag-MC {background-position:center 40.5781%; display: inline-block;}
+.fflag-ME {background-position:center 40.7998%; display: inline-block;}
+.fflag-NL {background-position:center 41.0215%; display: inline-block;}
+.fflag-MK {background-position:center 41.2432%; display: inline-block;}
+.fflag-NO {background-position:center 41.4649%; display: inline-block;}
+.fflag-PL {background-position:center 41.6866%; display: inline-block;}
+.fflag-PT {background-position:center 41.9083%; display: inline-block;}
+.fflag-RO {background-position:center 42.13%; display: inline-block;}
+.fflag-RU {background-position:center 42.3517%; display: inline-block;}
+.fflag-SM {background-position:center 42.5734%; display: inline-block;}
+.fflag-RS {background-position:center 42.7951%; display: inline-block;}
+.fflag-SK {background-position:center 43.0168%; display: inline-block;}
+.fflag-SI {background-position:center 43.2385%; display: inline-block;}
+.fflag-ES {background-position:left 43.4602%; display: inline-block;}
+.fflag-SE {background-position:center 43.6819%; display: inline-block;}
+.fflag-CH {background-position:center 43.9036%; display: inline-block;}
+.fflag-TR {background-position:center 44.1253%; display: inline-block;}
+.fflag-UA {background-position:center 44.347%; display: inline-block;}
+.fflag-GB {background-position:center 44.5687%; display: inline-block;}
+.fflag-VA {background-position:right 44.7904%; display: inline-block;}
+.fflag-BH {background-position:center 45.0121%; display: inline-block;}
+.fflag-IR {background-position:center 45.2338%; display: inline-block;}
+.fflag-IQ {background-position:center 45.4555%; display: inline-block;}
+.fflag-IL {background-position:center 45.6772%; display: inline-block;}
+.fflag-KW {background-position:left 45.897%; display: inline-block;}
+.fflag-JO {background-position:left 46.1206%; display: inline-block;}
+.fflag-KG {background-position:center 46.3423%; display: inline-block;}
+.fflag-LB {background-position:center 46.561%; display: inline-block;}
+.fflag-OM {background-position:left 46.7857%; display: inline-block;}
+.fflag-PK {background-position:center 47.0074%; display: inline-block;}
+.fflag-PS {background-position:center 47.2291%; display: inline-block;}
+.fflag-QA {background-position:center 47.4508%; display: inline-block;}
+.fflag-SA {background-position:center 47.6725%; display: inline-block;}
+.fflag-SY {background-position:center 47.8942%; display: inline-block;}
+.fflag-AE {background-position:center 48.1159%; display: inline-block;}
+.fflag-UZ {background-position:left 48.3376%; display: inline-block;}
+.fflag-AS {background-position:right 48.5593%; display: inline-block;}
+.fflag-AU {background-position:center 48.781%; display: inline-block;}
+.fflag-CX {background-position:center 49.002%; display: inline-block;}
+.fflag-CC {background-position:center 49.2244%; display: inline-block;}
+.fflag-CK {background-position:center 49.4445%; display: inline-block;}
+.fflag-FJ {background-position:center 49.6678%; display: inline-block;}
+.fflag-PF {background-position:center 49.8895%; display: inline-block;}
+.fflag-GU {background-position:center 50.1112%; display: inline-block;}
+.fflag-KI {background-position:center 50.3329%; display: inline-block;}
+.fflag-MH {background-position:left 50.5546%; display: inline-block;}
+.fflag-FM {background-position:center 50.7763%; display: inline-block;}
+.fflag-NC {background-position:center 50.998%; display: inline-block;}
+.fflag-NZ {background-position:center 51.2197%; display: inline-block;}
+.fflag-NR {background-position:left 51.4414%; display: inline-block;}
+.fflag-NU {background-position:center 51.6631%; display: inline-block;}
+.fflag-NF {background-position:center 51.8848%; display: inline-block;}
+.fflag-WS {background-position:left 52.1065%; display: inline-block;}
+.fflag-SB {background-position:left 52.3282%; display: inline-block;}
+.fflag-TK {background-position:center 52.5499%; display: inline-block;}
+.fflag-TO {background-position:left 52.7716%; display: inline-block;}
+.fflag-TV {background-position:center 52.9933%; display: inline-block;}
+.fflag-VU {background-position:left 53.215%; display: inline-block;}
+.fflag-WF {background-position:center 53.4385%; display: inline-block;}
+
+.fflag.ff-sm {width: 18px;height: 11px}
+.fflag.ff-md {width: 27px;height: 17px}
+.fflag.ff-lg {width: 42px;height: 27px}
+.fflag.ff-xl {width: 60px;height: 37px}
